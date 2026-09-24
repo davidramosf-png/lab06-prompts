@@ -11,7 +11,7 @@ Herramienta de IA usada: ChatGPT / Gemini
 | desafortunadamente | 18 | 4 |
 
 ### Observación de la Ventana de Contexto:
-Cuando pregunté por TiendaTec en el mismo chat, el modelo recordó el nombre de la aplicación y la tecnología perfectamente porque la información seguía activa dentro de su ventana de contexto actual. Sin embargo, al abrir un chat nuevo y repetir la pregunta, la IA no supo responder y me pidió más información debido a que cada sesión nueva inicia con la ventana de contexto completamente vacía.
+Cuando pregunté por 'TiendaTec' en el mismo chat, el modelo recordó el nombre de la aplicación y la tecnología perfectamente porque la información seguía activa dentro de su ventana de contexto actual. Sin embargo, al abrir un chat nuevo y repetir la pregunta, la IA no supo responder y me pidió más información debido a que cada sesión nueva inicia con la ventana de contexto completamente vacía.
 
 ## Ejercicio 3: Temperatura
 
@@ -46,7 +46,7 @@ Al subir la temperatura, las respuestas se vuelven mucho más variadas, creativa
 | Formato | Explica primero la estructura de la clase de forma breve y luego presenta el codigo Java limpio. |
 
 ### Cambios por nivel:
-* **Nivel 1:** La IA generó una clase Producto sencilla pero adivinó los atributos (nombre, precio y cantidad) y agregó métodos que no pedí.
+* **Nivel 1:** La IA generó una clase Producto sencilla, pero adivinó los atributos (nombre, precio y cantidad) y agregó métodos que no pedí.
 * **Nivel 2 (Rol):** El código se estructuró con mejores prácticas de programación, pero seguía siendo libre.
 * **Nivel 3 y 4 (Contexto + Instrucción):** El modelo dejó de adivinar y construyó exactamente la entidad Producto con los atributos solicitados.
 * **Nivel 5 (Formato + Ejemplo):** El resultado se ordenó de forma idónea para un reporte, respetando la nomenclatura exacta de los métodos pedidos.
