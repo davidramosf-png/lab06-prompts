@@ -11,16 +11,14 @@ Herramienta de IA usada: ChatGPT / Gemini
 | desafortunadamente | 18 | 4 |
 
 ### Observación de la Ventana de Contexto:
-Cuando pregunté por 'TiendaTec' en el mismo chat, el modelo recordó el nombre de la aplicación y la tecnología perfectamente porque la información seguía activa dentro de su ventana de contexto actual. Sin embargo, al abrir un chat nuevo y repetir la pregunta, la IA no supo responder o inventó un nombre debido a que cada sesión nueva inicia con la ventana de contexto completamente vacía.
+Cuando pregunté por TiendaTec en el mismo chat, el modelo recordó el nombre de la aplicación y la tecnología perfectamente porque la información seguía activa dentro de su ventana de contexto actual. Sin embargo, al abrir un chat nuevo y repetir la pregunta, la IA no supo responder y me pidió más información debido a que cada sesión nueva inicia con la ventana de contexto completamente vacía.
 
 ## Ejercicio 3: Temperatura
 
-| Temperatura | % de BiblioTec | Nombres en los 5 intentos |
-|-------------|----------------|---------------------------|
 | 0 | 100.0% | BiblioTec, BiblioTec, BiblioTec, BiblioTec, BiblioTec |
-| 0.5 | 78.4% | BiblioTec, LibroYa, BiblioTec, PrestaLibro, BiblioTec |
-| 1 | 52.1% | BiblioTec, LectoGo, LibroYa, PaginaLibre, PrestaLibro |
-| 1.8 | 31.5% | LectoGo, NubeDeTinta, LibroYa, PaginaLibre, BiblioTec |
+| 0.5 | 65.3% | BiblioTec, LibroYa, BiblioTec, PrestaLibro, BiblioTec |
+| 1 | 44.5% | BiblioTec, LectoGo, LibroYa, PaginaLibre, PrestaLibro |
+| 1.8 | 32.2% | PrestaLibro, BiblioTec, PaginaLibre, LibroYa, PrestaLibro |
 
 ### Análisis de Temperatura:
 Al subir la temperatura, las respuestas se vuelven mucho más variadas, creativas y menos predecibles porque el modelo aplana las probabilidades de los tokens, dándole oportunidad a opciones menos comunes. El simulador nunca inventa un nombre completamente nuevo fuera de la lista porque la temperatura no añade conocimiento ni base de datos externa al modelo; solo modifica los criterios de riesgo al elegir entre los tokens que ya conoce.
@@ -46,7 +44,7 @@ Al subir la temperatura, las respuestas se vuelven mucho más variadas, creativa
 | Formato | Explica primero la estructura de la clase de forma breve y luego presenta el codigo Java limpio. |
 
 ### Cambios por nivel:
-* **Nivel 1:** La IA generó un programa sumamente básico y aleatorio (un Hola Mundo).
+* **Nivel 1:** La IA generó una clase Producto sencilla pero adivinó los atributos (nombre, precio y cantidad) y agregó métodos que no pedí.
 * **Nivel 2 (Rol):** El código se estructuró con mejores prácticas de programación, pero seguía siendo libre.
 * **Nivel 3 y 4 (Contexto + Instrucción):** El modelo dejó de adivinar y construyó exactamente la entidad Producto con los atributos solicitados.
 * **Nivel 5 (Formato + Ejemplo):** El resultado se ordenó de forma idónea para un reporte, respetando la nomenclatura exacta de los métodos pedidos.
