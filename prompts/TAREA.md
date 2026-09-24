@@ -17,16 +17,16 @@ Actua como desarrollador Java senior. Crea un sistema CRUD para gestionar produc
 
 ## Version 3: prompt final
 ```text
-Actua como desarrollador Java senior. Crea un sistema CRUD para gestionar productos en consola. El modelo de datos debe incluir id, nombre, precio y stock. El almacenamiento debe ser en memoria usando ArrayList. 
+Actúa como desarrollador Java. Crea un sistema CRUD básico para gestionar productos por consola. El modelo debe tener id, nombre, precio y stock, guardados en un ArrayList en memoria.
 
-Restricciones: No uses librerias externas, valida que el precio y el stock no sean negativos, y maneja excepciones si el usuario ingresa texto en lugar de numeros.
+Restricciones: No uses librerías externas, valida que el precio y stock no sean negativos, y maneja excepciones sencillas si ingresan texto en vez de números.
 
-Usa este estilo para el menu en consola:
+Usa este formato para el menú:
 1. Crear Producto
 2. Listar Productos
 3. Salir
 
-Presenta primero una explicacion breve de la arquitectura de las clases y luego el codigo fuente completo ordenado por bloques limpios.
+Explica brevemente la estructura y luego presenta el código Java limpio.
 ```
 * **Qué cambió / Por qué:** Incorporé **Restricciones** específicas (validaciones de negocio y manejo de excepciones) junto con un **Ejemplo** de menú y un **Formato** de entrega estructurado para que el código sea profesional y directamente ejecutable.
 
@@ -34,7 +34,7 @@ Presenta primero una explicacion breve de la arquitectura de las clases y luego 
 
 | Componente | Texto de mi prompt |
 |------------|--------------------|
-| **Rol** | Actua como desarrollador Java senior. |
+| **Rol** | Actua como desarrollador Java. |
 | **Instruccion** | Crea un sistema CRUD para gestionar productos en consola. |
 | **Contexto** | El modelo de datos debe incluir id, nombre, precio y stock. El almacenamiento debe ser en memoria usando ArrayList. |
 | **Restricción** | No uses librerias externas, valida que el precio y el stock no sean negativos, y maneja excepciones si el usuario ingresa texto en lugar de numeros. |
