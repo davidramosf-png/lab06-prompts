@@ -15,6 +15,8 @@ Cuando pregunté por TiendaTec en el mismo chat, el modelo recordó el nombre de
 
 ## Ejercicio 3: Temperatura
 
+| Temperatura | % de BiblioTec | Nombres en los 5 intentos |
+|-------------|----------------|---------------------------|
 | 0 | 100.0% | BiblioTec, BiblioTec, BiblioTec, BiblioTec, BiblioTec |
 | 0.5 | 65.3% | BiblioTec, LibroYa, BiblioTec, PrestaLibro, BiblioTec |
 | 1 | 44.5% | BiblioTec, LectoGo, LibroYa, PaginaLibre, PrestaLibro |
