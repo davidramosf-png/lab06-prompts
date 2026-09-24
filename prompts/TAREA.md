@@ -28,26 +28,24 @@ Usa este formato para el menú:
 
 Explica brevemente la estructura y luego presenta el código Java limpio.
 ```
-* **Qué cambió / Por qué:** Incorporé **Restricciones** específicas (validaciones de negocio y manejo de excepciones) junto con un **Ejemplo** de menú y un **Formato** de entrega estructurado para que el código sea profesional y directamente ejecutable.
-
+* **Qué cambió / Por qué:** Incorporé **Restricciones** específicas (validaciones de negocio y manejo de excepciones) junto con un **Ejemplo** de menú y un **Formato** de entrega estructurado para que el código sea profesional y directamente ejecutable. La respuesta mejoró porque ahora valida precio y stock negativos, usa try-catch cuando se ingresan letras y respeta el menú que pedí.
 ## Componentes del prompt final
 
 | Componente | Texto de mi prompt |
 |------------|--------------------|
-| **Rol** | Actua como desarrollador Java. |
-| **Instruccion** | Crea un sistema CRUD para gestionar productos en consola. |
-| **Contexto** | El modelo de datos debe incluir id, nombre, precio y stock. El almacenamiento debe ser en memoria usando ArrayList. |
-| **Restricción** | No uses librerias externas, valida que el precio y el stock no sean negativos, y maneja excepciones si el usuario ingresa texto en lugar de numeros. |
-| **Ejemplo** | Usa este estilo para el menu en consola: 1. Crear Producto... |
-| **Formato** | Presenta primero una explicacion breve de la arquitectura de las clases y luego el codigo fuente completo... |
-
+| **Rol** | Actúa como desarrollador Java. |
+| **Instruccion** | Crea un sistema CRUD básico para gestionar productos por consola. |
+| **Contexto** | El modelo debe tener id, nombre, precio y stock, guardados en un ArrayList en memoria. |
+| **Restricción** | No uses librerías externas, valida que el precio y stock no sean negativos, y maneja excepciones sencillas si ingresan texto en vez de números. |
+| **Ejemplo** | Usa este formato para el menú: 1. Crear Producto, 2. Listar Productos, 3. Salir. |
+| **Formato** | Explica brevemente la estructura y luego presenta el código Java limpio. |
 ## Evaluacion del resultado
 
 | Qué revisar | Cumple (Sí / No) |
 |-------------|-------------------|
 | ¿El CRUD funciona completamente desde consola en Java? | Sí |
 | ¿Gestiona correctamente los atributos del producto (id, nombre, precio, stock)? | Sí |
-| ¿Aplica la restricción de no usar librerías externas? | Sí |
+| ¿El sistema permite crear y listar productos desde consola en Java? | Sí |
 | ¿Valida correctamente que los números ingresados no sean negativos? | Sí |
 
 ## Errores que evite
